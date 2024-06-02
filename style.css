@@ -1,0 +1,54 @@
+:root{
+    --body-fon:#ffffff;
+    --blue:#4158d0;
+    --pink:#c850c0;
+}
+
+body{
+    margin: 0px;
+}
+.main{
+    display: block;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.main-one{
+    font-weight: bold;
+    color: var(--body-fon);
+    margin:50px 20px 50px 20px;
+    padding-top: 15px;
+    border-radius: 15px;
+    background: linear-gradient(
+        45deg, var(--pink) 45%, var(--blue)
+    ) ;
+}
+
+.Name{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+[margin_top]{
+    margin-top: 20px;
+}
+
+input{
+    height: 25px;
+}
+
+button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 7px;
+  
+    color: #fff;
+    font-weight: bold;
+  
+    background: #47cf73;
+  
+    cursor: pointer;
+  }
